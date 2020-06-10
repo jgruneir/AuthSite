@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+th {
+	text-align: left;
+}
+
+.horcenter {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+
+#headerBody {
+	background-color: #555555;
+	background: -webkit-linear-gradient(#d8d7da, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d8d7da, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d8d7da, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d8d7da, white); /* Standard syntax */
+}
+
+#loginDiv {
+	border: solid;
+	width: 200px;
+}
+
+#loginForm {
+	text-align: center;
+}
+
+#loginform label {
+	width: 100px;
+}
+
+#loginForm div {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+
+}
+
+#loginForm input {
+	width: 80%;
+	text-align: left;
+}
+
+#loginForm .submit {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 20%;
+}
+
+#tablediv {
+	width: 670px;
+	min-height: 500px;
+}
+
+#delUserForm {
+	margin-top: 100px;
+	text-align: left;
+}
+
+#addUserTable {
+	margin-top:20px;
+}
+
+#userTable td {
+	padding-right:50px;
+}
+
+#footer {
+	padding-top: 3%;
+}
+
+#userBody h2 {
+	text-align: center;
+	height: 500px;
+}
+
+#passChangeForm {
+	text-align:left;
+}
+
+#passChangeDiv {
+	width:400px;
+	height: 500px;
+}
